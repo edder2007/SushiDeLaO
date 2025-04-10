@@ -1,0 +1,207 @@
+body{
+        background-image:url("../imagenes/fondo1.jpg");
+		font-family:"Tahoma","Lucida Console","Courier New";
+		color:#1B2631;
+		font-size:40px;
+		text-align:center;
+}
+hr{
+	border:3px solid #000000;
+	width:80%;
+	border-radius:5px;
+}
+p{
+        text-align:justify;
+		font-size:25px;
+		color:#000000;
+		font-weight:bold;
+		line-height:2.0;
+		letter-spacing:2;
+		font-family:BumbuSushi;
+}
+table,tr,td{
+	border:1px solid #000000;
+	border-spacing:0px;
+	background-color:#922B21;
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+}
+/*Clases*/
+.pie{
+	text-align:center;
+	font-size:10px;
+	color:#1D0B76;
+	font-weight:bold;
+}
+.encabezado{
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+}
+/*Divs*/
+div#top{
+	width:100%;
+	height:75px;
+	background-image:radial-gradient(#9F140B,#000000);
+}
+div#ppag{
+	width:100%;
+	height:100px;
+	background-image:radial-gradient(#9F140B,#000000);
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows>i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller> a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.intemcarrouselarrows> a > i{
+	color:white;
+}
+.caja{
+	height:300px;
+	width:250px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	font-family:AtomicSushi;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+	font-family:SushiBar;
+}
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color#fff;
+	font-weight:bold;
+	font-size:25px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition:tranform 0.2s 0.2s;
+	font-size:15px;
+	color:blue;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#85C1E9;
+}
+.navegacion-item:nth-child(2){
+	background:#76D7C4;
+}
+.navegacion-item:nth-child(3){
+	background:#F9E79F;
+}
+.navegacion-item:nth-child(4){
+	background:#D7BDE2;
+}
+.contacto1{
+	width:600px;
+	background:#FF0000;
+	border:1px solid #eee;
+	margin:5px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	color:black;
+	align-items:center;
+	font-family:HittoSushi;
+}
+.contacto2{
+	width:1200px;
+	height:320px;
+	border:1px solid #eee;
+	margin:5px;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+}
+@font-face{
+	font-family:SushiBar;
+	src:url(../fuentes/SushiBar.ttf)
+}
+@font-face{
+	font-family:BumbuSushi;
+	src:url(../fuentes/BumbuSushi.ttf)
+}
+@font-face{
+	font-family:AtomicSushi;
+	src:url(../fuentes/AtomicSushi.ttf)
+}
+@font-face{
+	font-family:HittoSushi;
+	src:url(../fuentes/HittoSushi.ttf)
+}
